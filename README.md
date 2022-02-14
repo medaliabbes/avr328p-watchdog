@@ -21,6 +21,7 @@
 	   
 	       - wdt_config function will configure the watchdog and enable it 
 		
-	       - any call to wdt_reset will reset the watchdog and prevent eny interrupt or reset so the program will continue the normal execution 
+	       - any call to wdt_reset will reset the watchdog and prevent eny interrupt or reset so the program will continue
+	         the normal execution 
 		
 	       - the interrupt mode can be is useful in low power mode , some modes support watchdog wake up
